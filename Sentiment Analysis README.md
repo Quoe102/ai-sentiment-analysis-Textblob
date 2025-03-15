@@ -4,7 +4,11 @@ textblob
 matplotlib
 wordcloud]
 
-
+- Ensure your CSV file is named **`Reviews.csv`**  
+- Place it in the same directory as **`Sentiment_Analysis_TextBlob.py`**  
+- If your dataset has a different name, either rename it to `Reviews.csv` or update the following line in the script:  
+  ```python
+  df = pd.read_csv("your_filename.csv")
 
 # ai-sentiment-analysis-Textblob
 A sentiment analysis project using NLP to classify Amazon reviews for AMAZON FINE FOODS as Positive, Negative, or Neutral.
